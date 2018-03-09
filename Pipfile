@@ -7,12 +7,6 @@ name = "pypi"
 
 [packages]
 
-Flask = "==0.12.2"
-"psycopg2" = "==2.7.4"
-
-
-[dev-packages]
-
 pytest = "==3.4.0"
 
 
