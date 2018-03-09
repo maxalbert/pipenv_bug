@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           command: |
-            sudo pip install pipenv virtualenv
+            pip install --user pipenv virtualenv
             python --version
             pipenv --version
             pipenv install
