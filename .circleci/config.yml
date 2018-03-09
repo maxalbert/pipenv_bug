@@ -8,5 +8,7 @@ jobs:
       - run:
           command: |
             sudo pip install pipenv virtualenv
+            python --version
+            pipenv --version
             pipenv install
             pipenv run pytest --version
